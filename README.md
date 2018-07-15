@@ -36,6 +36,8 @@ The models used all the college stats listed in the table above except for MPG a
 
 Each model's mean squared error and variance score (rsquared) was measured to find the most accurate regression. Each model's cross-validation score for explained variance was also measured to help determine the most accurate model. Note that a higher rsquared and explained variance indicates a more accurate regression, but a lower mean squared error indicates a more accurate regression.
 
+To test for overfitting, I performed k-Fold cross-validation (with n_splits = 4) on all the models, and examined their cross-validation scores for explained variance.
+
 To further test each regression's accuracy, I performed a standardized residuals test, Durbin-Watson test, and Jarque-Bera test. These all test that the errors in a model are random and not autocorrelated.
 
 ## Predicting the best distributors in the draft
