@@ -18,7 +18,7 @@ First, I created a database of all guards taken in the first round who played in
 | AST/TOV | AST/TOV |
 | AST%  | AST% |
 | TOV%  | TOV% |
-| SOS% |  |
+| SOS |  |
 
 College data was taken from [Sports Reference](http://sports-reference.com/cbb). NBA data was taken from [Basketball Reference](http://basketball-reference.com). I used [this draft finder from bbref](https://www.basketball-reference.com/play-index/draft_finder.cgi?request=1&year_min=2003&year_max=2018&college_id=1&pick_overall_min=1&pick_overall_max=30&pos_is_g=Y&order_by=ws) to get the list of qualifying players.
 
